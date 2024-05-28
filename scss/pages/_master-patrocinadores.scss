@@ -1,0 +1,29 @@
+.subtitulopatrocinador{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(252, 4, 4);
+    color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+.sectionPatrocinadores{
+    min-height: 100vh;
+    width: 80%;
+    display: grid;
+    outline: 10px solid black;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    display: grid;
+    grid-template-columns: minmax(350px) 1fr;
+    gap:30px; 
+}
+.imagenespatrocinadores{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

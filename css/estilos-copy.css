@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(218, 218, 218);
+}
+.escudo{
+    width: 100px;
+}
+nav{
+    background-color: rgb(22, 22, 22);
+}
+header{
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+.titulo{
+    color: aliceblue;
+    font-weight: 1000;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+.navegacion{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    margin: 50px;
+    padding: 5px;
+    transition: all 1s ease;
+}
+.navegacion:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+footer{
+    background-color: rgb(22, 22, 22);
+}
+.contenedor{
+    display: flex;
+    justify-content: end;
+
+}
+.escudo2{
+    padding-left: 10px;
+    padding-top: 10px; 
+    margin-right: 1000px;
+}
+.redes{
+    padding: 10px;
+}
+.video{
+    width: 100%;
+}
+
+/*Index*/
+
+
+button{
+    background-color: black;
+    color: aliceblue; 
+    border-color: red;
+}
+button:hover{
+    background-color: white;
+    color:black;
+    border-color: black;
+}
+
+
+.joaquin{
+    display: flex;
+    justify-content: start;
+    align-items:end;
+    background-color: rgb(22, 22, 22);
+    padding: 20px;
+    color: grey
+}
+
+/*indumentaria*/
+
+.consultas1{
+    margin: 150px;
+    padding: 40px;
+    background-color: rgb(189, 176, 176);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 1px;
+    background-color: rgb(252, 4, 4);
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+legend{
+    margin: 10px;
+    padding: 1px;
+    background-color:rgb(0, 0, 0) ;
+    color: white;
+    border-radius: 5px;
+}
+.envio{
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+}   
+/*contactanos*/
+
+.tituloNosotros{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: rgb(252, 4, 4);
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+}
+.ubicacion{
+    width: 100%;
+    border: none;
+    height: 100vh;
+}
+
+
+/*nosotros*/ 
+.subtitulopatrocinador{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(252, 4, 4);
+    color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+.sectionPatrocinadores{
+    min-height: 100vh;
+    width: 80%;
+    display: grid;
+    outline: 10px solid black;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 
+    repeat(auto-fit,minmax (min(350px,100%),1fr))
+    gap: 30px; 
+}
+.imagenespatrocinadores{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*patrocinadores*/
+
+@media screen and (max-width: 900px){
+    .navegacion{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .escudo2{
+        margin-left: 100px;
+    }
+}
+

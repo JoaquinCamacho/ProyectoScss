@@ -1,0 +1,21 @@
+.tituloNosotros{
+    @include flex(row,inherit,center,inherit);
+
+
+    // display: flex;
+    // justify-content: center;
+    margin-bottom: 10px;
+    background-color: rgb(252, 4, 4);
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    font-family: $montserrat
+}
+.ubicacion{
+    /*width: 100%;
+    border: none;
+    height: 100vh;*/
+    @extend %video;
+    width: 100%;
+}
+/* Falta ver algunos utilities, fijarse en vincular los html*/
